@@ -3,7 +3,7 @@ print(10 + 3) #addition
 print(10 - 3)  #subtraction
 print(10 * 3)  #multiplication
 print(10 / 3)  #division with "float" result
-print(10 // 3) #gives the value of 10 divided by 3 as an integer or whole number, division with "integer" result
+print(10 // 3) #gives the value of 10 divided by 3 as an integer or whole number, division with whole number or "integer" result
 print(10 % 3)  #dividion or modulus: gets the remainder value of the divison
 print(10 ** 3) #Exponent: raised to the power
 x = 10
@@ -47,3 +47,9 @@ print(price > 10 or price < 30) #Or operator ||
 print("Not Operator")
 price = 5
 print(not price > 10) #Not operator !
+
+print("Trial")
+print(True or True)
+print(False or False)
+print(False or True)
+print(True or False)
